@@ -1,0 +1,13 @@
+/home/jag/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/jag/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/jag/CLionProjects/C_BasicMenu -B /home/jag/CLionProjects/C_BasicMenu/cmake-build-debug
+-- Configuring done (0.0s)
+CMake Error at CMakeLists.txt:12 (add_executable):
+  Cannot find source file:
+
+    libC_LibMenu.a
+
+
+CMake Error at CMakeLists.txt:12 (add_executable):
+  No SOURCES given to target: C_BasicMenu
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
