@@ -11,9 +11,7 @@ link_libraries(libC_LibMenu.a)
 
 add_executable(C_BasicMenu
         library.h
-        libC_LibMenu.a
         main.c
-
 )
 
 
